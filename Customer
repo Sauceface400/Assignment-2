@@ -1,0 +1,37 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package assignment.pkg2.oop;
+
+/**
+ *
+ * @author User
+ */
+public class Customer {
+    private String name;
+    private int phoneNo;
+    private String paymentInfo;
+    private String address;
+
+    public void Customer(String name, int phoneNo, String paymentInfo, String address){
+        this.name = name;
+        this.phoneNo = phoneNo;
+        this.paymentInfo = paymentInfo;
+        this.address = address;
+    }
+    
+    public String getName(){
+        return name;
+    }
+    public int getPhoneNo(){
+        return phoneNo;
+    }
+    public String getPaymentInfo(){
+        return paymentInfo;
+    }
+    public String getAddress(){
+        return address;
+    }
+    
+}
